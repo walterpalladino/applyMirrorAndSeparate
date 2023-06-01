@@ -47,7 +47,7 @@ def main(context):
         #   Iterate the modifiers
         for modifier in obj.modifiers:
             #   Only apply Mirror modifier
-            if (modifier.name == 'Mirror'):
+            if (modifier.type == 'MIRROR'):
                 # Apply Mirror Modifier
                 bpy.ops.object.modifier_apply(modifier=modifier.name)
                 # Separate if applies
