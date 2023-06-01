@@ -13,4 +13,9 @@ Notes:
 * Will affect only Meshes
 * Will aplly Mirror only if already exists on the object
 * Will Separate Meshes if the created mesh after mirrored allows that
+* Specially usefull on a workflow in combination with [resetAllVectorNormals][1] and [parentToNearestBone][2]
+
+
+[1]: https://github.com/walterpalladino/resetAllVectorNormals
+[2]: https://github.com/g3ntile/parentToNearestBone
 
